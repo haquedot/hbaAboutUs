@@ -12,7 +12,137 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg position-fixed z-1 bg-white border-bottom" style="width:100%;">
+
+    <nav class="navbar navbar-expand-lg position-fixed z-3 bg-white border-bottom w-100">
+        <div class="container">
+            <div class="d-flex align-content-center">
+                <a class="" href="#">
+                    <img src="images/logo.png" alt="logo">
+                </a>
+                <div class="dropdown-center">
+                    <button class="dropdown-toggle border-0 bg-transparent" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          | EN
+                        </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">English</a></li>
+                        <li><a class="dropdown-item" href="#">Urdu</a></li>
+                        <li><a class="dropdown-item" href="#">Hindi</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header">
+                    <a class="" href="#">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <ul class="navbar-nav px-3 justify-content-center w-100">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#room">Room</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex ps-3">
+                    <button class="me-2 border-1 border-dark border-opacity-10 rounded bg-transparent px-2" type="submit">
+                        <i class="bi bi-cart" style="color:#2596be"></i>
+                    </button>
+                    <button class="custom-btn" type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <div class="d-flex align-content-center">
+                <a class="" href="#">
+                    <img src="images/logo.png" alt="logo">
+                </a>
+                <div class="dropdown-center">
+                    <button class="dropdown-toggle border-0 bg-transparent" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          | EN
+                        </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">English</a></li>
+                        <li><a class="dropdown-item" href="#">Urdu</a></li>
+                        <li><a class="dropdown-item" href="#">Hindi</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header">
+                    <a class="" href="#">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <ul class="navbar-nav px-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#room">Room</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex ps-3">
+                    <button class="me-2 border-1 border-dark border-opacity-10 rounded bg-transparent px-2" type="submit">
+                        <i class="bi bi-cart" style="color:#2596be"></i>
+                    </button>
+                    <button class="custom-btn" type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+    </nav> -->
+
+
+    <!-- <nav class="navbar navbar-expand-lg bg-white border-bottom">
         <div class="container ">
             <div class="d-flex align-content-center ">
                 <a class=" " href="# ">
@@ -29,10 +159,10 @@
                     </ul>
                 </div>
             </div>
-            <button class="navbar-toggler " type="button " data-bs-toggle="collapse " data-bs-target="#navbarSupportedContent " aria-controls="navbarSupportedContent " aria-expanded="false " aria-label="Toggle navigation ">
+            <button class="navbar-toggler " type="button " data-bs-toggle="collapse " data-bs-target="#offcanvasWithBothOptions " aria-controls="offcanvasWithBothOptions " aria-expanded="false " aria-label="Toggle navigation ">
             <span class="navbar-toggler-icon "></span>
           </button>
-            <div class="collapse navbar-collapse " id="navbarSupportedContent ">
+            <div class="collapse navbar-collapse " id="offcanvasWithBothOptions ">
                 <ul class="navbar-nav m-auto mb-2 mb-lg-0 ">
                     <li class="nav-item ">
                         <a class="nav-link active " aria-current="page " href="#home ">Home</a>
@@ -64,7 +194,7 @@
                 </form>
             </div>
         </div>
-    </nav>
+    </nav> -->
 
     <header class="cotainer-fluid ">
         <h1 class="about m-0 ">
@@ -184,22 +314,22 @@
         <h1 class="text-center m-0 mb-5 ">
             <p>AWARDS</p>
         </h1>
-        <div class="row ">
-            <div class="col-md-4 ">
+        <div class="row m-2">
+            <div class="col-md-4 p-2">
                 <div class=" award-card p-4 text-center ">
                     <img src="images/awards-01.png " alt=" ">
                     <h4 class="text-center ">TOP CHOICE</h4>
                     <p class="text-center text-secondary fs-6 fw-light ">The Award was presented by the national hospitality association in 1998.</p>
                 </div>
             </div>
-            <div class="col-md-4 ">
+            <div class="col-md-4 p-2">
                 <div class="award-card p-4 text-center ">
                     <img src="images/awards-02.png " alt=" ">
                     <h4 class="text-center ">TOP CHOICE</h4>
                     <p class="text-center text-secondary fs-6 fw-light ">The Award was presented by the national hospitality association in 1998.</p>
                 </div>
             </div>
-            <div class="col-md-4 ">
+            <div class="col-md-4 p-2">
                 <div class="award-card p-4 text-center ">
                     <img src="images/awards-03.png " alt=" ">
                     <h4 class="text-center ">TOP CHOICE</h4>
